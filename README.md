@@ -48,7 +48,7 @@ This project automates the deployment of an AWS infrastructure using Terraform. 
 
 ACM is used to manage SSL/TLS certificates for securing your application. This project provisions ACM certificates, which are then associated with the ALB to enable HTTPS connections.
 
- - Variables.tf file will need to be created for this module.
+ - Variables.tf (Included)
 
    - aws_domain_name (example.com)
    - alt_aws_domain_name (www.example.com)
@@ -57,7 +57,7 @@ ACM is used to manage SSL/TLS certificates for securing your application. This p
 
 EC2 instances are the compute resources where your application will run. This project provisions EC2 instances within the VPC, installs necessary software, and runs a CodeDeploy agent to facilitate deployments.
 
-- Variables.tf file will need to be created for this module.
+- Variables.tf file (Included)
 
   - aws_zone_id
   - aws_domain_name
