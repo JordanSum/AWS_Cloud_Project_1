@@ -37,10 +37,8 @@ This Terraform project is designed to create and manage a comprehensive AWS infr
 
 This project automates the deployment of an AWS infrastructure using Terraform. It covers the essential components needed to deploy and manage a secure, scalable, and maintainable environment. The primary focus is on deploying a VPC with EC2 instances, and setting up an ALB for traffic management.
 
- - This is a development project and should NOT be used for production.
-
- - Please use best policy and security when deploying this project
-
+> [!WARNING]  
+> This is a development project and should NOT be used for production. Please use best policy and security when deploying this project
 
 ### Components
 
